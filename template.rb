@@ -119,7 +119,7 @@ gem_group :development do
   ## 任意GEM
 end
 
-group :test do
+gem_group :test do
   ## 必須GEM
 
   ## ブラウザ操作シミュレート
