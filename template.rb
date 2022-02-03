@@ -28,10 +28,6 @@ gem 'jp_prefecture'
 ## https://github.com/varvet/pundit
 gem 'pundit'
 
-## JS Bundling
-## https://github.com/rails/jsbundling-rails
-gem 'jsbundling-rails'
-
 ## Ruby用Lintツール
 ## https://github.com/rubocop/rubocop-rails/
 gem 'rubocop-rails', require: false
