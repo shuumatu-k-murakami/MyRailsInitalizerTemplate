@@ -121,11 +121,6 @@ end
 
 
 gem_group :test do
-  ## テストデータお掃除（minioとの共存のために必要）
-  ## https://github.com/DatabaseCleaner/database_cleaner
-  gem 'database_cleaner-active_record'
-  
-  
   ## テストカバレッジ計測
   ## https://github.com/simplecov-ruby/simplecov
   gem 'simplecov', require: false
