@@ -2,6 +2,10 @@
 ## https://github.com/awesome-print/awesome_print
 gem 'awesome_print'
 
+## S3
+## https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-s3
+gem "aws-sdk-s3", "~> 1.14"
+
 ## 認証
 ## https://github.com/heartcombo/devise
 gem 'devise'
