@@ -8,6 +8,10 @@ gem 'awesome_print'
 ## https://github.com/heartcombo/devise
 gem 'devise'
 
+## デコレーター
+## https://github.com/drapergem/draper
+gem 'draper'
+
 ## enum拡張
 ## https://github.com/zmbacker/enum_help
 gem 'enum_help'
