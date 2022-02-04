@@ -28,10 +28,6 @@ gem 'jp_prefecture'
 ## https://github.com/varvet/pundit
 gem 'pundit'
 
-## JS Bundling
-## https://github.com/rails/jsbundling-rails
-gem 'jsbundling-rails'
-
 ## Ruby用Lintツール
 ## https://github.com/rubocop/rubocop-rails/
 gem 'rubocop-rails', require: false
@@ -39,10 +35,6 @@ gem 'rubocop-rails', require: false
 ## Seed拡張
 ## https://github.com/james2m/seedbank
 gem 'seedbank'
-
-## Zoneinfo Files for Windows
-## https://github.com/tzinfo/tzinfo-data
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 
 
@@ -75,6 +67,8 @@ gem 'shrine', '~> 3.0'
 ## 検索機能
 ## https://github.com/activerecord-hackery/ransack
 gem 'ransack'
+
+
 
 gem_group :development, :test do
   ## 必須GEM
@@ -111,6 +105,8 @@ gem_group :development, :test do
   ## 任意GEM
 end
 
+
+
 gem_group :development do
   ## 必須GEM
 
@@ -122,29 +118,15 @@ gem_group :development do
   ## https://github.com/flyerhzm/bullet
   gem 'bullet'
 
-  ## Viewデバッグ
-  ## https://github.com/rails/web-console
-  gem 'web-console'
-
 
 
   ## 任意GEM
 end
 
+
+
 gem_group :test do
   ## 必須GEM
-
-  ## ブラウザ操作シミュレート
-  ## https://github.com/teamcapybara/capybara
-  gem 'capybara'
-
-  ## ブラウザ操作シミュレート
-  ## https://github.com/SeleniumHQ/selenium/tree/trunk/rb
-  gem 'selenium-webdriver'
-
-  ## Seleniumサポート
-  ## https://github.com/titusfortner/webdrivers
-  gem 'webdrivers'
 
   ## テストカバレッジ計測
   ## https://github.com/simplecov-ruby/simplecov
