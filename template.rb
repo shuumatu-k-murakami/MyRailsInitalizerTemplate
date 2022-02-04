@@ -79,6 +79,18 @@ gem 'ransack'
 gem_group :development, :test do
   ## 必須GEM
 
+  ## Pry
+  ## https://github.com/pry/pry-rails
+  gem 'pry-rails'
+
+  ## Pry
+  ## https://github.com/deivid-rodriguez/pry-byebug
+  gem 'pry-byebug'
+
+  ## Pry
+  ## https://github.com/pry/pry-doc
+  gem 'pry-doc'
+
   ## RSpec テストフレームワーク
   ## https://github.com/rspec/rspec-metagem
   gem 'rspec-rails'
