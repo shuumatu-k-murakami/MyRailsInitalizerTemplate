@@ -68,6 +68,10 @@ gem 'noticed'
 ## https://github.com/shrinerb/shrine
 gem 'shrine', '~> 3.0'
 
+## ジョブスケジューラ
+## https://github.com/mperham/sidekiq
+gem 'sidekiq'
+
 ## 検索機能
 ## https://github.com/activerecord-hackery/ransack
 gem 'ransack'
