@@ -1,5 +1,3 @@
-## 必須GEM
-
 ## STDOUT整形
 ## https://github.com/awesome-print/awesome_print
 gem 'awesome_print'
@@ -40,10 +38,6 @@ gem 'rubocop-rails', require: false
 ## https://github.com/james2m/seedbank
 gem 'seedbank'
 
-
-
-## 任意GEM
-
 ## パンクズリスト
 ## https://github.com/lassebunk/gretel
 gem 'gretel'
@@ -79,8 +73,6 @@ gem 'ransack'
 
 
 gem_group :development, :test do
-  ## 必須GEM
-
   ## Pry
   ## https://github.com/pry/pry-rails
   gem 'pry-rails'
@@ -108,16 +100,11 @@ gem_group :development, :test do
   ## ダミーデータ
   ## https://github.com/faker-ruby/faker
   gem 'faker'
-
-
-  ## 任意GEM
 end
 
 
 
 gem_group :development do
-  ## 必須GEM
-
   ## Schema転記
   ## https://github.com/ctran/annotate_models
   gem 'annotate'
@@ -125,22 +112,12 @@ gem_group :development do
   ## N+1。クエリパフォーマンス改善。
   ## https://github.com/flyerhzm/bullet
   gem 'bullet'
-
-
-
-  ## 任意GEM
 end
 
 
 
 gem_group :test do
-  ## 必須GEM
-
   ## テストカバレッジ計測
   ## https://github.com/simplecov-ruby/simplecov
   gem 'simplecov', require: false
-
-
-
-  ## 任意GEM
 end
